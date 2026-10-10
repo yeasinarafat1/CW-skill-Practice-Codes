@@ -1,0 +1,16 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " DEV_SERVER_PORT=4000 DEV_SERVER_ROOT=. dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dev-server": "^0.2.0",
+    "vite": "^8.3.4"
+  }
+}

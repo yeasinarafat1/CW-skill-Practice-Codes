@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header img{
+    height: 100px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+header div ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+header div ul a{
+    text-decoration: none;
+    color: black;
+}
+.button-fill{
+    
+    border: transparent;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(90, 90, 255);
+    padding: 11px 21px;
+    border-radius: 7px;
+}
+.button-outline{
+    outline: 1px solid black;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.hero{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    gap: 15px;
+}
+.hero .text h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.hero .text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero .hero-img{
+    height: 250px;
+    width: 400px;
+}
+.hero .cta{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.info{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.info div h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.info div p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.info div img{
+    height: 40px;
+    width: 40px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 30px 0;
+    background-color: rgb(85, 102, 148);
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+footer div img{
+    height: 30px;
+    width: 30px;
+}
