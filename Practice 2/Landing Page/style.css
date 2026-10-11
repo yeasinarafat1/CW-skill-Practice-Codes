@@ -89,6 +89,7 @@ header div ul a{
     height: 200px;
     align-items: center;
     justify-content: space-around;
+    
 }
 .info div{
     display: flex;
@@ -131,3 +132,54 @@ footer div img{
     height: 30px;
     width: 30px;
 }
+@media (max-width:600px) {
+    header{
+        justify-content: space-between;
+        margin: 8px 7px;
+    }
+    header div ul{
+    display: none;
+}
+.hero{
+    flex-direction: column;
+    height: auto;
+    
+}
+.hero .hero-img{
+    order: -1;
+}
+}
+ @media (max-width:900px) {
+    .hero .text{
+        width: 250px;
+    }
+    .hero .text h2{
+        font-size: 30px;
+    }
+    .hero .hero-img{
+        height: 150px;
+        width: 250px;
+    }
+    .info{
+        flex-wrap: wrap;
+        height: auto;
+        
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .info div{
+        margin:8px 0px;
+        gap: 20px;
+    }
+    .info div img{
+        height: 30px;
+        width: 30px;
+    }
+    .info div h2{
+        font-size: 18px;
+    }
+    .info div p{
+        font-size: 14px;
+    }
+
+ }
